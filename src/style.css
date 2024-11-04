@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formdiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formdiv .form {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  border: 2px solid green;
+  padding: 10px;
+}
+.formdiv .form .inputs {
+  display: flex;
+  gap: 10px;
+}
+.formdiv .form .submit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.textbox {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.textbox .text {
+  border: 2px solid rebeccapurple;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=style.css.map */

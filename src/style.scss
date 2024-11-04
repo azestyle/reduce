@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .form{
+        width: fit-content;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 20px;
+       margin-top: 50px;
+       border: 2px solid green;
+       padding: 10px;
+        .inputs{
+            display: flex;
+            gap: 10px;
+        }
+        .submit{
+       width: fit-content;
+        }
+    }
+}
+
+.textbox{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    .text{
+        border: 2px solid rebeccapurple;
+        width: fit-content;
+    }
+}
